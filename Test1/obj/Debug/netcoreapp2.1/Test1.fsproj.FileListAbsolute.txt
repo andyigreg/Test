@@ -1,0 +1,8 @@
+/Users/andrewgregory/Projects/Test1/Test1/bin/Debug/netcoreapp2.1/Test1.deps.json
+/Users/andrewgregory/Projects/Test1/Test1/bin/Debug/netcoreapp2.1/Test1.runtimeconfig.json
+/Users/andrewgregory/Projects/Test1/Test1/bin/Debug/netcoreapp2.1/Test1.runtimeconfig.dev.json
+/Users/andrewgregory/Projects/Test1/Test1/bin/Debug/netcoreapp2.1/Test1.dll
+/Users/andrewgregory/Projects/Test1/Test1/bin/Debug/netcoreapp2.1/Test1.pdb
+/Users/andrewgregory/Projects/Test1/Test1/obj/Debug/netcoreapp2.1/Test1.fsprojAssemblyReference.cache
+/Users/andrewgregory/Projects/Test1/Test1/obj/Debug/netcoreapp2.1/Test1.dll
+/Users/andrewgregory/Projects/Test1/Test1/obj/Debug/netcoreapp2.1/Test1.pdb
