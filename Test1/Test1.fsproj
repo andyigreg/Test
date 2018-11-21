@@ -5,6 +5,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Markdown.fs" />
+    <Compile Include="MarkdownTest.fs" />
     <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit.runner.reporters" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.utility" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+    <PackageReference Include="FsUnit.xUnit" Version="3.4.0" />
+    <PackageReference Include="FsUnit" Version="3.4.0" />
   </ItemGroup>
 </Project>
