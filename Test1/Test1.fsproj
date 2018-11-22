@@ -5,6 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Markdown.fs" />
+    <Compile Include="MarkdownActive.fs" />
     <Compile Include="MarkdownTest.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>

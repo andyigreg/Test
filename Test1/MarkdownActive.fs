@@ -1,4 +1,4 @@
-﻿module Markdown
+﻿module MarkdownActive
 
 type MarkdownDocument = list<MarkdownBlock>
 
@@ -32,14 +32,3 @@ let ParseInline = function
     | '`'::chars ->
         ParseInlineBody [] chars
     | _ -> None
-
-let rec ParseSpans acc chars =
-    match ParseInline chars, chars with
-    | Some(body, chars), _ -> 
-        ((body |> toString |> InlineCode) :: (acc |> List.rev |> toString |> Literal) :: (chars |> ParseSpans []))
-    | _, c::chars -> ParseSpans (c::acc) chars
-    | _, [] -> (acc |> List.rev |> toString |> Literal) :: []
-
-let ParseText text =
-    [for c in text -> c] |> ParseSpans []
-    
