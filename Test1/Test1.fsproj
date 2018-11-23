@@ -7,8 +7,9 @@
     <Compile Include="Markdown.fs" />
     <Compile Include="MarkdownActive.fs" />
     <Compile Include="MarkdownTest.fs" />
-    <Compile Include="Program.fs" />
     <Compile Include="cwPersistence.fs" />
+    <Compile Include="cwMaxDifference.fs" />
+    <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="xunit.runner.reporters" Version="2.4.1" />
