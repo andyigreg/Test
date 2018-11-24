@@ -10,6 +10,7 @@
     <Compile Include="cwPersistence.fs" />
     <Compile Include="cwMaxDifference.fs" />
     <Compile Include="cwNumberContainsDigit.fs" />
+    <Compile Include="cwEqualSidesOfAnArray.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>
