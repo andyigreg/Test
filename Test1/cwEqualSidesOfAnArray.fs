@@ -7,4 +7,6 @@ let findEvenIndex (items : int array) =
         | x::xs -> if List.sum xs = List.sum left then index else findIndex (x::left) xs (index+1)
         | [] -> -1
 
-    findIndex [] itemsList 0
+    match itemsList with
+      | [] -> 0
+      | _ -> findIndex [] itemsList 0
